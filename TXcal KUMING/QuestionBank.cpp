@@ -86,7 +86,7 @@ void QuestionBank::answerTriangleItem(int id, int perimeter, double area)
 	for (int i = 0; i < currentcount; i++)
 	{
 		if (triangleItem[i].getId() == id)
-		{
+		{    
 			if (triangleItem[i].calperimeter() == perimeter && triangleItem[i].getArea() == area)
 			{
 				cout << "»Ø´ðÕýÈ·" << endl;
